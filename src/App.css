@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Akshar-VariableFont_wght';
+    src: local('Akshar-VariableFont_wght'), url(./fonts/Akshar-VariableFont_wght.ttf) format('truetype');
+}
+
+html {
+    height: 100%;
+    background-image: linear-gradient(rgb(21, 110, 211), rgb(255, 255, 255));
+}
+
+p {
+    font-family: Akshar-VariableFont_wght;
+}

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Isekai is watching</p>
+        <h1>Isekai</h1>
       </header>
       <BrowserRouter>
         <Routes>
