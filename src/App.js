@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route, Link, useParams } from "react-router-dom";
 import Home from './views/home';
 import logo from './media/img/Isekai.png';
-
+import Container from '@mui/material/Container';
 
 function App() {
   return (
@@ -11,11 +11,13 @@ function App() {
       <header className="App-header">
         <img src={logo} />
       </header>
-      <BrowserRouter>
-        <Routes>
-            <Route path='/' element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+      <Container>
+        <BrowserRouter>
+          <Routes>
+              <Route path='/' element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </Container>
     </div>
   );
 }
